@@ -5,6 +5,8 @@ scoreboard objectives add variables dummy
 scoreboard players set #one variables 1
 scoreboard players set #give_distance variables 10
 
+function lastlifecore:rng
+
 team add dark_green
 team modify dark_green color dark_green
 team add green
