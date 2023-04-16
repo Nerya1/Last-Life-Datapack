@@ -1,4 +1,4 @@
-function lastlife:rng
+function lastlifecore:rng
 
 execute if score out rng matches 4.. run title @a title [{"score":{"objective": "rng", "name": "out"}, "color": "dark_green"}]
 execute if score out rng matches 3 run title @a title [{"score":{"objective": "rng", "name": "out"}, "color": "green"}]
