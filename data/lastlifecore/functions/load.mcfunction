@@ -5,6 +5,8 @@ scoreboard objectives add variables dummy
 scoreboard players set #one variables 1
 scoreboard players set #give_distance variables 10
 
+scoreboard objectives add carrot_trigger minecraft.used:carrot_on_a_stick
+
 function lastlifecore:rng
 
 team add dark_green
