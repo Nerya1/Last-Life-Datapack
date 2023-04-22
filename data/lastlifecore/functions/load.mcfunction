@@ -1,5 +1,6 @@
 scoreboard objectives add lives dummy
 scoreboard objectives add death_trigger deathCount
+scoreboard objectives add boogey dummy
 
 scoreboard objectives add variables dummy
 scoreboard players set #one variables 1
